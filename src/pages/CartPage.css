@@ -1,0 +1,136 @@
+/* CartPage.css */
+
+/* Cart Page Container */
+.cart-page {
+  padding: 20px;
+}
+
+/* Cart Content */
+.cart-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-heading {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cart-item-count {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Cart Cards and Summary */
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Cart Card */
+.cart-card-row {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cart-card-img-top {
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cart-card-content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.cart-card-content p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.cart-remove-btn {
+  display: flex;
+  align-items: center;
+}
+
+/* Cart Summary */
+.cart-summary {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.cart-summary h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cart-summary p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.cart-summary hr {
+  margin-bottom: 15px;
+}
+
+.cart-summary h4 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.cart-summary-content {
+  margin-top: 10px;
+}
+
+.cart-summary-content h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cart-summary-content h5 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.cart-summary-content button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cart-summary-content button:hover {
+  background-color: #d1174f;
+}
+
+.cart-summary button.btn-primary {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+/* ... (rest of the styles) */

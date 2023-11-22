@@ -67,18 +67,6 @@ const ForgotPassword = () => {
               </div>
               <div className="authform_container">
                 <input
-                  type="text"
-                  className="form-control"
-                  name="email"
-                  value={answer}
-                  onChange={(e) => setAnswer(e.target.value)}
-                  required
-                  placeholder="Your favoutie sport"
-                />
-              </div>
-
-              <div className="authform_container">
-                <input
                   type={passwordType}
                   className="form-control"
                   name="password"
@@ -112,7 +100,7 @@ const ForgotPassword = () => {
           </div>
           <div className="authpage_leftdiv">
             <img
-              src="https://milanhub.org/assets/authbannerimg-90821bd2.webp"
+              src="background.jpeg"
               alt="Auth Banner"
             />
           </div>

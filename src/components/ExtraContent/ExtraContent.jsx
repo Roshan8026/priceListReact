@@ -23,7 +23,12 @@ const ExtraContent = () => {
                   Best
                 </h2>
                 <div className='button-wrap'>
-                <Link to={'/customization'}><button className='btn'>Customize</button></Link>  
+                <Link to={'/login'}>
+                <input
+                  type="text"
+                  placeholder="Search here"
+                  />
+                  </Link>  
                 </div>
                 <p className='heading-in__subtitle'>A place to Buy at best prices...</p>
             </div>

@@ -24,7 +24,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:8080/api/v1/auth/login", {
+            const res = await axios.post("http://localhost:3000/api/login", {
                 email,
                 password,
               });
@@ -62,7 +62,7 @@ const Login = () => {
           <div className="authpage_rightdiv">
           <button onClick={() => navigate("/")} className="btn authpage_floatingbtn authpage_goback"><div> Go back</div></button>
             <form onSubmit={handleSubmit} className="authform">
-              <h1 className="">Login to Apple Doors</h1>
+              <h1 className="">Sign In</h1>
 
 
               <div className="authform_container">
@@ -114,7 +114,7 @@ const Login = () => {
             </form>
           </div>
           <div className="authpage_leftdiv">
-          <button onClick={() => navigate("/register")} className="btn authpage_floatingbtn">Not have account? Register</button>
+          <button onClick={() => navigate("/register")} className="btn authpage_floatingbtn">Not have account? Sign Up</button>
           </div>
         </div>
       </div>

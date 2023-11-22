@@ -34,7 +34,7 @@ const App = () => {
       {loaded ? (
         <>
           <Header />
-          {/* <ToastContainer /> */}
+          <ToastContainer />
           {/* <CarouselSection /> */}
          <ExtraContent />
           {/* <ExtraContent2 /> */}

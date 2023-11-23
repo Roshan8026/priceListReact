@@ -24,10 +24,7 @@ const ExtraContent = () => {
                 </h2>
                 <div className='button-wrap'>
                 <Link to={'/login'}>
-                <input
-                  type="text"
-                  placeholder="Search here"
-                  />
+                <h3>Search here </h3>
                   </Link>  
                 </div>
                 <p className='heading-in__subtitle'>A place to Buy at best prices...</p>

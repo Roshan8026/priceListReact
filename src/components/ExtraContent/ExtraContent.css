@@ -61,11 +61,14 @@
 }
 
 .heading-in--with-subtitle .heading-in__subtitle {
-    color: #555;
+    color: blueviolet;
+   
 }
 
 .button-wrap {
     margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
 }
 
 /* Additional Styles for ExtraContent Layout */
@@ -105,9 +108,12 @@
 }
 
 .heading-in__subtitle {
-    font-size: 16px;
-    color: #555;
+    font-size: 20px;
+    color:  blueviolet;
     line-height: 1.5;
+    margin: 30px;
+    
+  
 }
 
 .btn {

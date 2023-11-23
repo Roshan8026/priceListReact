@@ -59,6 +59,12 @@ const Login = () => {
       <ToastContainer />
       <div className="authpage_godparent">
         <div className="authpage_parent">
+        <div className="authpage_leftdiv">
+          <img src='/background.jpeg' alt='image'  />
+          <p>A web scraper software designed to extract information from website like Filpkart, Amazon, and Myntra. It automates collecting data by simulating human interaction with web page and sends you to your destination through links, making your jounrey  eaxy to playfal.</p>
+            <div/>
+          <button  onClick={() => navigate("/")} className="btn authpage_floatingbtn authpage_goback"><div> Go back</div></button>
+          </div>
           <div className="authpage_rightdiv">
           <button onClick={() => navigate("/")} className="btn authpage_floatingbtn authpage_goback"><div> Go back</div></button>
             <form onSubmit={handleSubmit} className="authform">
@@ -112,9 +118,6 @@ const Login = () => {
 </button>
 
             </form>
-          </div>
-          <div className="authpage_leftdiv">
-          <button onClick={() => navigate("/register")} className="btn authpage_floatingbtn">Not have account? Sign Up</button>
           </div>
         </div>
       </div>

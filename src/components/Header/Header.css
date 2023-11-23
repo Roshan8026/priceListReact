@@ -1,12 +1,12 @@
 .h-wrapper {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  background-color: #f70cda;
+  background-color: #f3c7be;
   color: white;
   position: sticky;
   top: 0;
   z-index: 999;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
 }
 
 .logo {

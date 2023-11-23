@@ -65,7 +65,11 @@ const Register = () => {
       <ToastContainer />
       <div className="authpage_godparent">
         <div className="authpage_parent">
+          {/* <div className="authpage_leftdiv"> */}
           <div className="authpage_leftdiv">
+          <img src='/background.jpeg' alt='image' />
+          <p>A web scraper software designed to extract information from website like Filpkart, Amazon, and Myntra. It automates collecting data by simulating human interaction with web page and sends you to your destination through links, making your jounrey  eaxy to playfal.</p>
+            <div/>
           <button  onClick={() => navigate("/")} className="btn authpage_floatingbtn authpage_goback"><div> Go back</div></button>
           </div>
           <div className="authpage_rightdiv">
@@ -137,7 +141,7 @@ const Register = () => {
               I agree with <b>Privacy Policy </b> and  <b>Term of Use</b>
               </span>
               </div>
-
+<br></br>
               <button type="submit" className="authpage_submitbtn">
                 Submit
               </button>

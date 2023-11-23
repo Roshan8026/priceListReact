@@ -21,19 +21,20 @@
   }
   
   .authpage_leftdiv {
-    flex-grow: 1;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-radius: 15px;
-    background-image: url('background.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+    width: 50%; 
+    padding: 3em;
+    
+}
 
+.authpage_leftdiv p {
+  padding:  0 5em;
+  margin-top: -6em;
+  font-family: "Poppins", sans-serif;
+}
+<style>
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
   .authpage_floatingbtn{
     position: absolute;
     top: 15px;

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import './ExtraContent.css'
+import { FaSearch } from "react-icons/fa";
+
 const ExtraContent = () => {
   return (
     <>
@@ -24,7 +26,7 @@ const ExtraContent = () => {
                 </h2>
                 <div className='button-wrap'>
                 <Link to={'/login'}>
-                <h3>Search here </h3>
+                <h3>Search here <FaSearch /></h3>
                   </Link>  
                 </div>
                 <p className='heading-in__subtitle'>A place to Buy at best prices...</p>

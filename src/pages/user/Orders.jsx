@@ -87,7 +87,7 @@ const Orders = () => {
                     </div>
                 </div>
             </div>
-     <LandingFooter />
+     {/* <LandingFooter /> */}
  
   
    </>

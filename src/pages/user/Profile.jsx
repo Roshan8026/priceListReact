@@ -120,7 +120,7 @@ const Profile = () => {
           </button>
         </form>
       </div>
-<LandingFooter />
+{/* <LandingFooter /> */}
     </>
     
   )

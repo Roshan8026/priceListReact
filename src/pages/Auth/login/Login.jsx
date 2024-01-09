@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../authStyle.css"; 
 import axios from "axios";
 import { useNavigate,useLocation } from "react-router-dom";
-import LandingFooter from "../../../components/Footer/Footer";
+// import LandingFooter from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
 import { useAuth } from "../../../context/auth";
 import { toast,ToastContainer } from 'react-toastify';
@@ -121,7 +121,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <LandingFooter />
+      {/* <LandingFooter /> */}
     </>
   );
 };

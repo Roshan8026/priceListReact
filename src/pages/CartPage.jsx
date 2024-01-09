@@ -223,7 +223,6 @@ const CartPage = () => {
                     </div>
                 </div>
             </div>
-            <LandingFooter />
             </>
 
     );

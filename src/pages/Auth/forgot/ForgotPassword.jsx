@@ -106,7 +106,6 @@ const ForgotPassword = () => {
           </div>
         </div>
       </div>
-        <LandingFooter />
     </>
     
   )

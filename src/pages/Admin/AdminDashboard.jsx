@@ -24,7 +24,6 @@ const AdminDashboard = () => {
         </div>
       </div>
 
-      <LandingFooter />
     </>
   );
 };

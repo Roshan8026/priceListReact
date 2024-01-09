@@ -27,7 +27,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <LandingFooter />
+      {/* <LandingFooter /> */}
     </>
   );
 };
